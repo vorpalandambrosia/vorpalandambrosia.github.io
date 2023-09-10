@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    position:fixed; 
+    z-index: 1;
+
+}
+
+h1 {
+    font-family: "BebasNeueBold";
+    font-size: 9.1rem;
+    margin: 0;
+    position:fixed; 
+    z-index: 1000;
+    bottom: 40%;
+    
+
+    /* Прозрачность
+    color: transparent;
+    -webkit-text-stroke: 4px rgb(0, 0, 0);
+    */
+
+    left: 50% ;
+    transform: translateX(-50%);
+    margin-top: 170px;
+    
+}
+
+
+
+#background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+  }
+
+.logo {
+    white-space: nowrap;
+}
+
+#free {
+    display: inline-block;
+}
+
+#angolenko {
+    display: inline-block;
+    white-space: nowrap;
+    letter-spacing: 13.2px;
+}
+
+
+
+@font-face {
+    font-family: "BebasNeueBold";
+    src: url("../fonts/BebasNeueBold.woff2") format("truetype");
+}
+
+@font-face {
+    font-family: "menufont";
+    src: url("../fonts/Uni\ Sans\ Heavy.otf");
+}
+
+
+.custom-cursor {
+    position:fixed;
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    border-radius: 50%;
+    pointer-events:none; /* Позволяет мыши игнорировать элемент */
+    transform: translate(-50%, -50%); /* Чтобы курсор был выровнен по центру */
+    z-index: 11000; /* Чтобы курсор всегда был сверху */
+    transition: background-color 0.3s ease; /* Добавьте плавное изменение цвета */
+}
+
+.menu:hover {
+    background-color: lightcoral;
+  }
+
+
+  
+.menu {
+    list-style: none;
+    padding: 0;
+    z-index: 500;
+    
+}
+
+.menu-item {
+        font-weight: bold;
+        background:none;
+        color: #000000; /* Задать цвет текста кнопок */
+        border: none; /* Убрать границу у кнопок */
+        z-index: 500;
+        font-family: "menufont";
+        
+    
+        
+    }
+
+    
+
+    
+
+
+#photo {
+    
+    color: #000000; /* Цвет текста */
+    background: none; /* Цвет фона */
+    padding: 0; /* Внутренние отступы */
+    margin: 0; /* Внешние отступы между пунктами меню */
+    position: absolute;
+    z-index: 500;
+    font-size: 42px;
+    top: 600px;
+    left: 350px;
+    transform: translate(-50%, -50%);
+    
+    
+    
+}
+
+#video {
+    color: #000000; /* Цвет текста */
+    background: none; /* Цвет фона */
+    padding: 0; /* Внутренние отступы */
+    margin: 0; /* Внешние отступы между пунктами меню */
+    position: absolute;
+    z-index: 500;
+    font-size: 38px;
+    top: 700px;
+    left: 900px;
+}
+
+#voices {
+    color: #000000; /* Цвет текста */
+    background: none; /* Цвет фона */
+    padding: 0; /* Внутренние отступы */
+    margin: 0; /* Внешние отступы между пунктами меню */
+    position: absolute;
+    z-index: 500;
+    font-size: 38px;
+    top: 540px;
+    left: 1500px;
+}
+
+#telegram {
+    color: #000000; /* Цвет текста */
+    background: none; /* Цвет фона */
+    padding: 0; /* Внутренние отступы */
+    margin: 0; /* Внешние отступы между пунктами меню */
+    position: absolute;
+    z-index: 500;
+    font-size: 20px;
+    top: 890px;
+    left: 1750px;
+
+}
